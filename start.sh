@@ -16,3 +16,4 @@ terrafrom apply
 mkdir -p /tmp/git
 cd /tmp/git/
 git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello.git
+rm -r /tmp/git/.git
