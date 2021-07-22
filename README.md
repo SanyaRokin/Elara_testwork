@@ -1,5 +1,5 @@
 # Elara_testwork
-1.На хосте заходим по Root.
+1.На хосте заходим по Root./p
 2. Клонируем репозиторий:
   git clone https://github.com/SanyaRokin/Elara_testwork.git
 3. Выполняем команды:
