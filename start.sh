@@ -15,5 +15,5 @@ terraform plan
 terrafrom apply
 mkdir -p /tmp/git
 cd /tmp/git/
-git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello.git
+git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello.git /tmp/git/
 rm -r /tmp/git/.git
