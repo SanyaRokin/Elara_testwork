@@ -74,7 +74,7 @@ resource "aws_instance" "git" {
     inline = [
       "sudo apt update && sudo apt upgrade -y",
       "sudo apt-get install git-core -y",
-      "mkdir -p /tmp/project-1.git && cd /tmp/project-1.git"
+      "mkdir -p /tmp/project-1.git && cd /tmp/project-1.git",
       "git init --bare"
     ]
     connection {
