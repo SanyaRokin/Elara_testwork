@@ -2,7 +2,8 @@
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 sudo apt-add-repository "deb [arch=$(dpkg --print-architecture)] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
 apt update
-apt install apt install -y git-core
+apt install -y unzip
+apt install -y git-core
 apt install terraform
 ssh-keygen -t rsa -b 4096 -m PEM
 openssl rsa -in ~/.ssh/id_rsa -outform pem > /tmp/id_rsa.pem
